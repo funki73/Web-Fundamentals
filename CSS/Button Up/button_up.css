@@ -1,0 +1,35 @@
+#Search {
+    color: green;
+    outline: green;
+    background-color: white;
+    border-color: green;
+    border-radius: 20px;
+    width: 125px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 50px
+}
+#Plus { 
+    color: whitesmoke;
+    background-color: green;
+    border-color: green;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px
+}
+#Create_Button { 
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    outline: green;
+    background-color: blue;
+    border-color: rgb(72,115,228);
+    width: 140px;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 50px
+}
