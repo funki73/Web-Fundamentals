@@ -1,0 +1,24 @@
+
+
+h1 {
+    color: skyblue;
+    background-color: black;
+    text-align:left;
+    font-family: monospace;
+}
+h2 {
+    color: white;
+    background-color:rgb(102,42,153);
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    color:rgb(36,15,80);
+    background-color:lightblue;
+    text-align:right;
+    text-decoration:underline
+}
+
+.white-text{
+    color: white
+}
