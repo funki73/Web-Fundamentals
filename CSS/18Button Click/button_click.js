@@ -3,8 +3,10 @@ function clickLike(){
 }
 
 function clickLogin(element){
-    if(element.id === "Login")
-    element.innerText = "Logout"
+    if(element.id === "Login") {
+    element.innerText = "Logout";
+} else {
+    element.innerText = "Login"
 }
 
 function clickRemove(element){
