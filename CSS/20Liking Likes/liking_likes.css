@@ -3,3 +3,43 @@
     padding: 0;
 }
 
+.container{
+    width: 1200;
+    height: 900px;
+    padding: 55px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    }
+
+.likebox{
+    margin-left: 10px;
+    width: 300px;
+    height: 125px;
+    border-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+#btn {
+    box-shadow: 3px 3px 0px black;
+    color: black;
+    outline: orange;
+    background-color: orange;
+    border-color: black;
+    width: 65px;
+    height: 25px;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.body{
+    margin-top: -7px;
+    margin-left: 24px;
+}
