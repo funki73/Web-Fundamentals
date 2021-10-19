@@ -38,7 +38,7 @@ var pizza = {
     }
 
     
-// pizza.pizzaOven();
+pizza.pizzaOven();
 
 //*Create a pizza with: "deep dish", "traditional", ["mozzarella"], and ["pepperoni", "sausage"] */
 // console.log(pizza["crust"][0])
@@ -59,5 +59,5 @@ var pizza = {
 
 //Create 2 more pizzas with any toppings we like! */
 
-// console.log(pizza["crust"][2])
-// console.log(pizza["toppings"])
+console.log(pizza["crust"][2])
+console.log(pizza["toppings"])
