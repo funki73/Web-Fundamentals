@@ -6,7 +6,7 @@ function clickLogin(element){
     if(element.id === "Login") {
     element.innerText = "Logout";
 } else {
-    element.innerText = "Login"
+    element.innerText = "Login";
 }
 
 function clickRemove(element){
