@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="button_click.css">
-    <title>Document</title>
+    <title>Button Clicker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+
+        <div class="nav">
+            <h1 class="nav-title" style="margin-left: 10px;">Dojonary</h1>
+             <p><input type="text" placeholder="Search.." ></p>
+             <p><button onclick="clickLogin(this)" id="Login">Login</button></p>
+        </div>
+
+    <div class=main>
+        <div class=left_column>
+
+            <div class=top_widget>
+                <div class=top_widget_left>
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p><br>
+                    <p><button onclick="clickLike()" id="like_top"><strong>likes</strong></button></p>
+                </div>
+
+                <div class=top_widget_right>
+                    <p>A practitioner skilled in the Japanese art of ninjutsu</p>
+                </div>
+            </div>
+
+            <div class=bottom_widget>
+                <div class=bottom_widget_left>
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p><br>
+                    <p><button id="like_bottom"><strong>likes</strong></button></p>
+                </div>
+
+                <div class=bottom_widget_right>
+                    <p>A programmer who breaks down problems with zen-like focus</p>
+                </div>                
+            </div>
+        </div>
+
+        <div class=right_column>
+            <div class=top_widget_right_column>
+                    <p>Dojonary is devined by YOU</p><br>
+                    <p><button onclick="clickRemove(this)" id="add_definition"><strong>Add Definition</strong></button></p>
+            </div>
+        </div>
+                
+            </div>
+        </div>
+    </div>
 
         <script src="button_click.js"></script>
 </body>
