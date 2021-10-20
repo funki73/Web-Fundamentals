@@ -17,6 +17,9 @@ h1, h5 {
     background-color: lightblue;
     padding: 15px;
     margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .middle {
