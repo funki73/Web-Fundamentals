@@ -1,10 +1,12 @@
 console.log("page loaded...");
 
-function playvid(element){
-    playvid.mute == true;
-    element.play();
+function playVideo(vid){
+    // console.log(vid);
+    vid.play();
+
 }
-function pausevid(element){
-    pausevid.mute == true;
-    element.pause();
+
+function pauseVideo(vid){
+    // console.log(vid);
+    vid.pauseVideo();
 }
