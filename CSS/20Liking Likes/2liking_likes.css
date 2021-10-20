@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 900;
+    height: 900;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    margin-left: 135px;
+    width: 502px;
+    height: 29px;
+    color: white;
+    border-color: black;
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 5px;
+    align-items: center;
+    padding: 8px;
+}
+
+.title{
+    margin-left: 135px;
+    width: 575px;
+    height: 37px;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.columns{
+    display: flex;
+    margin-left: 120px;
+}
+
+.leftcol{
+    margin-left: 15px;
+    width: 126px;
+    height: 213px;
+    color: black;
+    border-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+
+#topcard,
+#midcard,
+#bottomcard{
+        margin-left: 10px;
+        width: 350px;
+        height: 100px;
+        color: black;
+        border-color: black;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+}
+
+.neilm,
+.nicholk,
+.jimr{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: -16px;
+}
+
+.bodytop{
+margin-top: 20px;
+margin-left: 15px;
+}
+
+
+/* #midcard{
+    margin-left: 10px;
+    width: 350px;
+    height: 100px;
+    color: black;
+    border-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+} */
+
+/* #bottomcard{
+    margin-left: 10px;
+    width: 350px;
+    height: 100px;
+    color: black;
+    border-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+} */
+
+#btn {
+    box-shadow: 3px 3px 0px black;
+    color: black;
+    outline: orange;
+    background-color: orange;
+    border-color: black;
+    width: 65px;
+    height: 25px;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.avatar-m {
+    border-radius: 347%;
+    background-color: #fff;
+    height: 57px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: -3px;
+}
