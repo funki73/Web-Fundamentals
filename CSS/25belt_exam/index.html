@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Easy Bay (Belt Exam)</title>
+</head>
+<body>
+    <div id="container">
+        <div class = "top">
+            <p><img src="images/leaf.png" class = "leafpic" alt= "leaf picture"></p>
+            <h3>EasyBay</h3>
+            <p><input type="text" placeholder="Search for anything" class = "search"></p>
+            <p>Sign In</p>
+            <p onclick="cart_empty()"><img src="images/cart-dark.png" class= "cart" alt = "cart picture"></p>
+        </div>
+
+        <div class = "navbar">
+            <ul class = "navlist">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+
+        <div class = "header">
+            <h1>Your Source for Succulent Specialties</h1>
+        </div>
+
+        <div class = "navbody">
+            <div class = "leftcolumn">
+                <div id = "leftbox">
+                    <p>Discover succulent varieties one pot or rack at a time!</p>
+                    <p>Discover -></p>
+                </div>
+                <div id = "rightbox">
+                    <img src="images/succulents-1.jpg" alt="succulents-1" class="plantpicrotate" onmouseover="rotatePic(this)">
+                </div>
+            </div>
+            <div class = "rightcolumn">
+                <div id = "topbox">
+                    <img src="images/aloe-m.jpg" alt="aloe-m" class="plantpicrotater">
+                </div>
+                <div id = "bottombox">
+                    <p>  Soothing aloe -></p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "selections">
+            <ul class = "itemlist">
+                <li><img src="images/aeonium-s.jpg" alt="aeonium-circle" class="plantpic">Aeonium</li>
+                <li><img src="images/aloe-s.jpg" alt="aloe-m-circle" class="plantpic">Aloe</li>
+                <li><img src="images/cactus-s.jpg" alt="cactus-circle" class="plantpic">Agave</li>
+                <li><img src="images/echeveria-s.jpg" alt="echeveria-s" class="plantpic">Echeveria</li>
+                <li><img src="images/sedum-s.jpg" alt="sedum-s" class="plantpic">Sedum</li>
+                <li><img src="images/sempervivum-s.jpg" alt="sempervivum-s.jpg" class="plantpic">Semperivium</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div class="cookie-policy">
+                <img src="images/alert-dark.png" alt="cookie">
+                <div class="text">
+                    <p>This site makes use of third-pary cookies, by clicking "I accept" you gree to the terms outlined in our <a href="https://www.w3schools.com/html/html_links.asp">cookie policy</a></p>
+                </div>
+                <button class="btn" onclick="accept()">Accept</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
