@@ -198,7 +198,7 @@
     //         }
     //     }
     
-// complete the following function
+complete the following function
 function flatten(arr2d) {
     // empty to store value
     var flat = [];
@@ -219,4 +219,18 @@ function flatten(arr2d) {
 var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
 console.log(result); 
 
-// we expect to get back [2, 5, 8, 3, 6, 1, 5, 7, 7]
+we expect to get back [2, 5, 8, 3, 6, 1, 5, 7, 7]
+function getTotal(arrayOfNumbers) {
+    
+    var sum = arrayOfNumbers[0];
+      
+    for(var i=0; i<arrayOfNumbers.length; i++) {
+      sum += arrayOfNumbers[i];
+      console.log("the current sum is: " + sum); 
+    }
+      
+    console.log("the total is: " + sum);
+      
+  }
+      
+  getTotal([1, 3, 5]);
